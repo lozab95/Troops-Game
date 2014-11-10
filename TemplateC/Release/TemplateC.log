@@ -1,0 +1,62 @@
+﻿Build started 23/10/2014 13:49:53.
+     1>Project "F:\Year 1\Uni Documents\Uni\C - Software Programming\Assignment 2\AllegroGame.V-1.0\TemplateC\TemplateC.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "F:\Year 1\Uni Documents\Uni\C - Software Programming\Assignment 2\AllegroGame.V-1.0\Release\".
+       InitializeBuildStatus:
+         Creating "Release\TemplateC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AI.cpp Base.cpp Mainmenu.cpp Play.cpp SoldierClass.cpp Main.cpp Bullet.cpp
+         AI.cpp
+         Base.cpp
+         Mainmenu.cpp
+         Play.cpp
+         SoldierClass.cpp
+         Main.cpp
+     1>Main.cpp(309): warning C4018: '<' : signed/unsigned mismatch
+     1>Main.cpp(354): warning C4018: '<' : signed/unsigned mismatch
+     1>Main.cpp(498): warning C4018: '<' : signed/unsigned mismatch
+         Bullet.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Year 1\Uni Documents\Uni\C - Software Programming\Assignment 2\AllegroGame.V-1.0\Release\TemplateC.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\TemplateC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Year 1\Uni Documents\Uni\C - Software Programming\Assignment 2\AllegroGame.V-1.0\Release\TemplateC.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Year 1\Uni Documents\Uni\C - Software Programming\Assignment 2\AllegroGame.V-1.0\Release\TemplateC.lib" /MACHINE:X86 Release\AI.obj
+         Release\Base.obj
+         Release\Mainmenu.obj
+         Release\Play.obj
+         Release\SoldierClass.obj
+         Release\Main.obj
+         Release\Bullet.obj
+     1>AI.obj : error LNK2001: unresolved external symbol __imp__masked_blit
+     1>AI.obj : error LNK2001: unresolved external symbol __imp__destroy_bitmap
+     1>AI.obj : error LNK2001: unresolved external symbol __imp__allegro_message
+     1>AI.obj : error LNK2001: unresolved external symbol __imp__textprintf_ex
+     1>AI.obj : error LNK2001: unresolved external symbol __imp__makecol
+     1>AI.obj : error LNK2001: unresolved external symbol __imp__font
+     1>AI.obj : error LNK2001: unresolved external symbol __imp__load_bitmap
+     1>Mainmenu.obj : error LNK2001: unresolved external symbol __imp__mouse_x
+     1>Mainmenu.obj : error LNK2001: unresolved external symbol __imp__mouse_y
+     1>Mainmenu.obj : error LNK2001: unresolved external symbol __imp__blit
+     1>Mainmenu.obj : error LNK2001: unresolved external symbol __imp__mouse_b
+     1>SoldierClass.obj : error LNK2001: unresolved external symbol __imp__key
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__play_sample
+     1>Main.obj : error LNK2001: unresolved external symbol __imp___WinMain
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__install_keyboard
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__install_timer
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__set_color_depth
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__allegro_error
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__create_bitmap
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__clear_keybuf
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__clear_bitmap
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__install_mouse
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__screen
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__load_sample
+     1>Main.obj : error LNK2001: unresolved external symbol __imp___install_allegro_version_check
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__install_sound
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__show_mouse
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__set_gfx_mode
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__gfx_driver
+     1>Main.obj : error LNK2001: unresolved external symbol __imp__desktop_color_depth
+     1>F:\Year 1\Uni Documents\Uni\C - Software Programming\Assignment 2\AllegroGame.V-1.0\Release\TemplateC.exe : fatal error LNK1120: 30 unresolved externals
+     1>Done Building Project "F:\Year 1\Uni Documents\Uni\C - Software Programming\Assignment 2\AllegroGame.V-1.0\TemplateC\TemplateC.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.81
